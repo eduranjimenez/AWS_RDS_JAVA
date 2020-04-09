@@ -27,7 +27,7 @@ public class ConnectionDao {
 		List<User> userList = new ArrayList<>();
 		try {
 		Statement stmt=conn.createStatement();  
-		ResultSet rs=stmt.executeQuery("select * from userinfo");  
+		ResultSet rs=stmt.executeQuery("select id, name, city, email from userinfo");  
 		while(rs.next())  {
 			User user = new User();
 			user.setId(rs.getInt(1));
