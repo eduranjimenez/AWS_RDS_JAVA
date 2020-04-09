@@ -1,4 +1,4 @@
-Import the project into eclipse/STS as maven project.
+Import the project into eclipse/STS as maven project
 
 go the the path of the project folder. (e.g c:/users/workspace/CURD) and execute mvn clean package.
 
